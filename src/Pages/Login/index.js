@@ -45,14 +45,17 @@ const Login = ({history}) => {
     }
 
     return <>
-        <div className="h-100 w-100 d-flex justify-content-center align-items-center">
-            <div className="Container">
+        <div
+            className="h-100 w-100 d-flex justify-content-center align-items-center">
+            <div className="Container m-3">
                 <h1 className="Title">Login</h1>
+
                 <form onSubmit={handleLogin}>
                     <label>
                         <input className="Input" name="email" type="email"
                                placeholder="E-mail"/>
                     </label>
+
                     <label>
                         <input className="Input" name="password" type="password"
                                placeholder="Senha"/>

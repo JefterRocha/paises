@@ -9,7 +9,7 @@ const NavMenu = () => {
         <Navbar className="navbar navbar-expand-lg" expand="lg" bg="primary" variant="dark">
 
                 <Container className="justify-content-start adjustementNav">
-            <Navbar.Brand href="/">Conheça Mais Países</Navbar.Brand>
+            <Navbar.Brand as={Link} to='/' href="/">Conheça Mais Países</Navbar.Brand>
             <Navbar.Toggle className="px-2" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="w-100">

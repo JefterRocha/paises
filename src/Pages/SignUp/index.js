@@ -39,7 +39,7 @@ const SignUp = ({history}) => {
     return <>
         <div
             className="h-100 w-100 d-flex justify-content-center align-items-center">
-            <div className="Container">
+            <div className="Container m-3">
                 <h1 className="Title">Inscrição</h1>
                 <form onSubmit={handleSignUp}>
                     <label>
