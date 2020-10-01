@@ -1,68 +1,75 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PROJETO CONHEÇA MAIS PAÍSES (com React js)
 
-## Available Scripts
+## Apresentação
 
-In the project directory, you can run:
+![Imagem do projeto](https://raw.githubusercontent.com/querocriarsite/paises/master/prints/1.png)
 
-### `yarn start`
+![Imagem do projeto](https://raw.githubusercontent.com/querocriarsite/paises/master/prints/2.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Imagem do projeto](https://raw.githubusercontent.com/querocriarsite/paises/master/prints/3.png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![Imagem do projeto](https://raw.githubusercontent.com/querocriarsite/paises/master/prints/4.png)
 
-### `yarn test`
+Este projeto tem como objetivo principal estudar React e suas tecnologias no desenvolvimento de um sistema com autenticação por login e senha, além de integração com uma api para busca de dados de países.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnologias Usadas:
 
-### `yarn build`
+⚛ React js :
+- context api,
+- hooks,
+- axios,
+- bootstrap,
+- firebase,
+- react-bootstrap,
+- react-dom,
+- react-google-charts,
+- react-router,
+- react-router-dom.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔥 Integração com a API: https://restcountries.eu/rest/v2/
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+✅ Lint — ESlint/Prettier/Editor Config
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `yarn eject`
+- [x] Autenticação login e senha.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [x] Projeto responsivo.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [x] Integrado com api.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [x] Utilizado bootstrap.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Instruções
 
-## Learn More
+Todos comandos devem ser executados na pasta do projeto.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Instalar dependências:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+yarn
+```
 
-### Code Splitting
+- Iniciar servidor e executar o aplicativo no modo de desenvolvimento.
+- Abrir http://localhost:3000 para visualização no navegador.
+- Uma página será recarregada se você fizer edições.:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```
+yarn start
+```
 
-### Analyzing the Bundle Size
+- Criar build de produção otimizada:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```
+yarn build
+```
 
-### Making a Progressive Web App
+- O arquivo .env deve ser preenchido com os dados de integração do Firebase Authentication.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- Para o deploy da aplicação o caminho da pasta do projeto deverá ser inserido no arquivo package.json na linha "Homepage" no lugar da "/".
 
-### Advanced Configuration
+## Autoria
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Éverton Toffanetto
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+https://querocriarsite.com
