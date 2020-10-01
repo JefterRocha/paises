@@ -14,7 +14,7 @@ const NavMenu = () => {
             <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="w-100">
                         <Nav.Link as={Link} to='/' href='/' className="mx-4" active>Início</Nav.Link>
-                        <Nav.Link as={Link} to='/graph' href='/graph' className="mx-4" active>Gáfico</Nav.Link>
+                        <Nav.Link as={Link} to='/graph' href='/graph' className="mx-4" active>Gráfico</Nav.Link>
                         <Nav.Link className="mx-4" href='https://querocriarsite.com/' active>Contato</Nav.Link>
                     </Nav>
                 <Nav>
