@@ -6,9 +6,9 @@
 
 ![Imagem do projeto](https://raw.githubusercontent.com/querocriarsite/paises/master/prints/2.jpg)
 
-![Imagem do projeto](https://raw.githubusercontent.com/querocriarsite/paises/master/prints/3.jpg)
+![Imagem do projeto](https://raw.githubusercontent.com/querocriarsite/paises/master/prints/3.png)
 
-![Imagem do projeto](https://raw.githubusercontent.com/querocriarsite/paises/master/prints/4.jpg)
+![Imagem do projeto](https://raw.githubusercontent.com/querocriarsite/paises/master/prints/4.png)
 
 Este projeto tem como objetivo principal estudar React e suas tecnologias no desenvolvimento de um sistema com autenticação por login e senha, além de integração com uma api para busca de dados de países.
 
