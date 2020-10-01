@@ -1,4 +1,4 @@
-# PROJETO CONHEÇA MAIS PAÍSES (com React js)
+# PROJETO CONHEÇA MAIS PAÍSES (React js)
 
 ## Apresentação
 
@@ -6,7 +6,7 @@
 
 ![Imagem do projeto](https://raw.githubusercontent.com/querocriarsite/paises/master/prints/2.jpg)
 
-![Imagem do projeto](https://raw.githubusercontent.com/querocriarsite/paises/master/prints/1a.png)
+![Imagem do projeto](https://raw.githubusercontent.com/querocriarsite/paises/master/prints/1a.jpg)
 
 ![Imagem do projeto](https://raw.githubusercontent.com/querocriarsite/paises/master/prints/2a.png)
 
