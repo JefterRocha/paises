@@ -1,6 +1,7 @@
 import React, {useCallback, useState} from "react";
 import {withRouter} from "react-router";
 import DataFirebase from "../../Data";
+import {Link} from "react-router-dom";
 
 
 const SignUp = ({history}) => {
@@ -55,7 +56,7 @@ const SignUp = ({history}) => {
                     </button>
                     <p className="LinkAction">
                         Já está inscrito? Faça agora seu
-                        <a href="/login">login!</a>
+                        <Link to="/login">login!</Link>
                     </p>
                 </form>
             </div>

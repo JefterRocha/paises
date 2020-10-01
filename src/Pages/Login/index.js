@@ -2,6 +2,7 @@ import React, {useState, useCallback, useContext} from "react";
 import {withRouter, Redirect} from "react-router";
 import DataFirebase from "../../Data";
 import {AuthContext} from "../../Auth.js";
+import {Link} from "react-router-dom";
 
 const Login = ({history}) => {
     const [erroEmailPassword, setErroEmailPassword] = useState('');
@@ -62,7 +63,7 @@ const Login = ({history}) => {
                     <button className="Button" type="submit">Entrar</button>
                     <p className="LinkAction">
                         Ainda não está inscrito?
-                        <a href="/signup">Inscreva-se!</a>
+                        <Link to="/signup">Inscreva-se!</Link>
                     </p>
                 </form>
             </div>
