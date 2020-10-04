@@ -21,5 +21,6 @@ export function AuthProvider({ children }) {
         </Spinner>
     </div> : <AuthContext.Provider value={{ currentUser }}>
             {children}
+            <h1>FUNCIONOU!</h1>
         </AuthContext.Provider>
 }
