@@ -1,13 +1,10 @@
-import React from "react";
-import NavMenu from "../../components/Menu";
-import {Graphic} from '../../components/Graphic';
+import React from 'react'
+import NavMenu from '../../components/Menu'
+import { Graphic } from '../../components/Graphic'
 
-const Graph = () => {
-
+export default function Graph() {
     return <>
-        <NavMenu/>
-        <Graphic/>
+        <NavMenu />
+        <Graphic />
     </>
-};
-
-export default Graph;
+}

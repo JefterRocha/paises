@@ -1,12 +1,10 @@
-import React from "react";
-import NavMenu from '../../components/Menu';
-import {CountrysCaptals} from '../../components/CountrysAmericaCapitals';
+import React from 'react'
+import NavMenu from '../../components/Menu'
+import { CountrysCaptals } from '../../components/CountrysAmericaCapitals'
 
-const Home = () => {
+export default function Home() {
     return <>
-        <NavMenu/>
-        <CountrysCaptals/>
+        <NavMenu />
+        <CountrysCaptals />
     </>
-};
-
-export default Home;
+}
